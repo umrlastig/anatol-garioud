@@ -137,11 +137,11 @@
 		</article>
 		<article class="col-md-6 col-lg-6">
 		<div class="portfolio-item d-block mx-auto">
-		   <img class="img-fluid" src="img/Opticals.png" alt="" />
+		   <img class="img-fluid" src="img/multisource.png" alt="" />
 		   <div class="portfolio-desc d-flex align-center position-absolute h-100 w-100">
 			  <div class="folio-info my-auto w-100 text-center">
-				 <h5 class="lang-en">Multispectral Imagery</h5>
-				 <h5 class="lang-fr">Imagerie Multispectrale</h5>
+				 <h5 class="lang-en">Multisource Imagery</h5>
+				 <h5 class="lang-fr">Imagerie Multisource</h5>
 				 <a href="" class="fancybox"><i class="fas fa-search-plus fa-3x"></i></a>
 			  </div>
 		   </div>
@@ -339,9 +339,9 @@
 	  <br><br><br><br>-->
 	 	 
         <h4 class="lang-en">Check the weather!</h4>
-		<div class="w-100">
-	  	<input type="url" placeholder="City ? " /><button id="query">Go</button>
-		<iframe id="out" height=690 width=950 style="border: 1px solid black"></iframe>
+		<input type="url" placeholder="City ? " /><button id="query">Go</button>
+		<div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" id="out" height=690 width=950 style="border: 1px solid black"></iframe>
 		<script>
 			var source = "https://wttr.in/" 
 			document.getElementById('query').onclick = function() {
